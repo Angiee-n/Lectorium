@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    color: #576BCD;
+    letter-spacing: -0.1em;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.register-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 477px;
+    height: 515px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #d6d6d6;
+}
+
+.form-title {
+    margin-bottom: 25px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+#password-input, .email input{
+   margin-top: 10px;
+   padding-left: 14px;
+   width: 377px;
+   height: 47px;
+   border: 2px solid #D1D1D1;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: 700;
+   color: black;
+}
+
+
+#password-input:focus, .email input:focus {
+    outline: 3px solid #8d99d4;
+    border: none;
+}
+
+.email, .password{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.password{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+button{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 377px;
+    height: 47px; 
+    background-color: #576BCD;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    box-shadow: 3px 3px 8px #b9aeff;
+}
+
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #576BCD;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.04em;  
+}
+
+.checkbox{
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+}
+
+.use-single-on{
+    text-align: center;
+}
+
+a.single-on{
+    font-size: 17px;
+}
+
+.sign-up{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+}
+
+.sign-up a:link, .sign-up a:visited{
+    color: #576BCD;
+}
